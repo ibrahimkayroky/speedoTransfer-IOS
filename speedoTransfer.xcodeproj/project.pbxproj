@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6ABF78E72C85E3FE00E966C5 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABF78E62C85E3FE00E966C5 /* TestViewController.swift */; };
 		7C93B4E52C812FDE00062620 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C93B4E42C812FDE00062620 /* LoginVC.swift */; };
 		7CB462D02C812CD400C6F795 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB462CF2C812CD400C6F795 /* AppDelegate.swift */; };
 		7CB462D22C812CD400C6F795 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB462D12C812CD400C6F795 /* SceneDelegate.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6ABF78E62C85E3FE00E966C5 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		7C93B4E42C812FDE00062620 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		7CB462CC2C812CD400C6F795 /* speedoTransfer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = speedoTransfer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CB462CF2C812CD400C6F795 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				7CB462DA2C812CD600C6F795 /* LaunchScreen.storyboard */,
 				7CB462DD2C812CD600C6F795 /* Info.plist */,
 				7C93B4E42C812FDE00062620 /* LoginVC.swift */,
+				6ABF78E62C85E3FE00E966C5 /* TestViewController.swift */,
 			);
 			path = speedoTransfer;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ABF78E72C85E3FE00E966C5 /* TestViewController.swift in Sources */,
 				7CB462D42C812CD400C6F795 /* ViewController.swift in Sources */,
 				7CB462D02C812CD400C6F795 /* AppDelegate.swift in Sources */,
 				7C93B4E52C812FDE00062620 /* LoginVC.swift in Sources */,
