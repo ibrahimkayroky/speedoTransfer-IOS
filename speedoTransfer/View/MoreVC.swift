@@ -13,14 +13,18 @@ class MoreVC: UIViewController {
         
     @IBOutlet weak var tableView: UITableView!
     
+    let icons : [String] = ["Group", "favorite", "user","help", "logout"]
     let tasks : [String] = ["Transfer From Website", "Favourites", "Profile","Help", "logout"]
    // let media = Media()
     let profileVc = MoreProfileVC()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-           
+        title = "More"
+//        navigationController?.title
+        UINavigationBarAppearance().titleTextAttributes = [
+            NSAttributedString.Key.font: UIFont.systemFont(ofSize: 25, weight: .regular)
+        ]
         
         tableView.delegate = self
         tableView.dataSource = self
@@ -60,7 +64,8 @@ extension MoreVC: UITableViewDelegate, UITableViewDataSource {
         
         // Configure the cell with the corresponding text from the array
         let text = tasks[indexPath.row]
-        //cell.configure(with: text)
+        let icon = icons[indexPath.row]
+        cell.configureCell(media: Media(title: text, image: icon))
         
         return cell
     }
