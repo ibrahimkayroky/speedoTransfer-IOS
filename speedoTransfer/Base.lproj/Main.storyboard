@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ORo-3E-i5B">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Tv9-Rr-n88">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -8,6 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+
         <!--My cards-->
         <scene sceneID="AH2-rv-C4n">
             <objects>
@@ -50,10 +52,20 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Jcx-hQ-o5k"/>
+=======
+        <!--Sign Up View Controller-->
+        <scene sceneID="u8X-yN-5WT">
+            <objects>
+                <viewController storyboardIdentifier="SignUpViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Tv9-Rr-n88" customClass="SignUpViewController" customModule="speedoTransfer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="J9X-ee-Hwd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="XAt-gz-25x"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="8X4-ee-w7l"/>
                 </viewController>
+
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bOb-b0-aia" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2415.9420289855075" y="1991.5178571428571"/>
@@ -243,6 +255,39 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lg9-VZ-GsR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="6452.1739130434789" y="1994.8660714285713"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pQ3-rS-jIz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="884" y="84"/>
+        </scene>
+        <!--First Sign Up View Controller-->
+        <scene sceneID="UT2-3A-Qbj">
+            <objects>
+                <viewController storyboardIdentifier="FirstSignUpViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="cqZ-E8-Ah5" customClass="FirstSignUpViewController" customModule="speedoTransfer" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XH4-Go-Soi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="o8R-Ad-1Hb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TWK-Vg-t60" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1569.5652173913045" y="83.705357142857139"/>
+        </scene>
+        <!--Sign In View Controller-->
+        <scene sceneID="9ww-e4-OWR">
+            <objects>
+                <viewController storyboardIdentifier="SignInViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="pFc-m2-oXr" customClass="SignInViewController" customModule="speedoTransfer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lcQ-xn-C4y">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="q5d-Wn-r1J"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hsY-2B-1ee" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2313" y="84"/>
         </scene>
     </scenes>
     <resources>
